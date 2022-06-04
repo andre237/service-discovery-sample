@@ -9,7 +9,7 @@
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>service-a</artifactId>
+  <artifactId>service-resources</artifactId>
 
   <properties>
     <maven.compiler.source>17</maven.compiler.source>
@@ -18,13 +18,8 @@
 
   <dependencies>
     <dependency>
-      <groupId>org.springframework.cloud</groupId>
-      <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>com.andre.labs</groupId>
-      <artifactId>service-resources</artifactId>
-      <version>0.0.1-SNAPSHOT</version>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
   </dependencies>
 
